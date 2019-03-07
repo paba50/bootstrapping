@@ -1,5 +1,4 @@
 # bootstrapping
-hobby project bootstrapping
 
 This is a comparison between bootstrapping with k-fold comparison. 
 
