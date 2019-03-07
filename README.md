@@ -12,9 +12,13 @@ The procedure of using the bootstrap method to estimate the skill of the model c
 1. Choose a number of bootstrap samples to perform
 2. Choose a sample size
 3. For each bootstrap sample
+
   3.1 Draw a sample with replacement with the chosen size
+
   3.2 Fit a model on the data sample
+  
   3.3 Estimate the skill of the model on the out-of-bag sample.
+
 4. Calculate the mean of the sample of model skill estimates.
 
 Note that all the data prepration work and parameter tuning should happen on the data sample (step 3.2). 
@@ -30,9 +34,13 @@ machine learning models perform. The general procedure of k-fold cross validatio
 1. Shuffle the dataset randomly.
 2. Split the dataset into k groups
 3. For each unique group:
+  
   3.1 Take the group as a hold out or test data set
+  
   3.2 Take the remaining groups as a training data set
+  
   3.3 Fit a model on the training set and evaluate it on the test set
+  
   3.4 Retain the evaluation score and discard the model
 4. Summarize the skill of the model using the sample of model evaluation scores
 
