@@ -1,6 +1,6 @@
 # bootstrapping
 
-This is a comparison between bootstrapping with k-fold comparison. 
+This is a comparison between bootstrapping with k-fold cross validation. 
 
 ## What is Bootstrapping ?
 Bootstrapping is a statistical technique originally designed for estimating quantities about populations. The whole idea is to randomly draw a small data sample with replacement from the entire dataset and compute the statistics on the sample (such as mean and standard deviation). 
